@@ -3,16 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://java.sun.com/jsf/facelets">
-    <h:head >
-        <title>Tiny calculator</title>
-        <h:outputStylesheet library="css" name="CalculatorStyle.css"/>
-    </h:head>
     <h:body>
-        <h1>
-            Tiny calculator 
-            <h:graphicImage styleClass="calc" alt="Calculator" library="images" name="calc.png"/> 
-        </h1>
-        <h:form id="calculator">
             <ui:composition template="./CalculatorTemplate.xhtml">
               <ui:define name="content">
                 <h:outputLabel styleClass="label" for="result" value="Result"/>
@@ -25,7 +16,6 @@
                <h:commandButton value="Back" action="index"/>
              </ui:define>
            </ui:composition>
-        </h:form>
     </h:body>
 </html>
 
