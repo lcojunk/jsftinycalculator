@@ -48,7 +48,7 @@ public class CalculatorBean {
 
     public String add() {
         _result = Integer.toString(_param1 + _param2);
-        return "";
+        return "result";
     }
 
     public String substract() {
