@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.01.2018, 09:58:47
+    Author     : odzhara-ongom
+*/
+
+.button{
+    width: 70px;
+    margin: 10px 5px 20px 0;
+}
+
+.label{
+    display: inline-block;
+    color: brown;
+    width: 70px;
+}
+
+img.calc {
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
